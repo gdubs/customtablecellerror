@@ -18,6 +18,11 @@
 		DD7FE83B16E55B560033C5E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD7FE83A16E55B560033C5E2 /* Default-568h@2x.png */; };
 		DD7FE83E16E55B560033C5E2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7FE83C16E55B560033C5E2 /* MainStoryboard.storyboard */; };
 		DD7FE84116E55B560033C5E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7FE84016E55B560033C5E2 /* ViewController.m */; };
+		DD7FE84916E55BDC0033C5E2 /* DetailMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7FE84816E55BDC0033C5E2 /* DetailMainViewController.m */; };
+		DD7FE84C16E55BFC0033C5E2 /* DetailAfterPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7FE84B16E55BFC0033C5E2 /* DetailAfterPushViewController.m */; };
+		DD7FE85216E55E7A0033C5E2 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7FE85116E55E7A0033C5E2 /* CustomCell.m */; };
+		DD7FE85516E55E890033C5E2 /* Match.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7FE85416E55E890033C5E2 /* Match.m */; };
+		DD7FE85816E55F350033C5E2 /* PopoverMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7FE85716E55F350033C5E2 /* PopoverMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,16 @@
 		DD7FE83D16E55B560033C5E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		DD7FE83F16E55B560033C5E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DD7FE84016E55B560033C5E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD7FE84716E55BDC0033C5E2 /* DetailMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailMainViewController.h; sourceTree = "<group>"; };
+		DD7FE84816E55BDC0033C5E2 /* DetailMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailMainViewController.m; sourceTree = "<group>"; };
+		DD7FE84A16E55BFC0033C5E2 /* DetailAfterPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailAfterPushViewController.h; sourceTree = "<group>"; };
+		DD7FE84B16E55BFC0033C5E2 /* DetailAfterPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailAfterPushViewController.m; sourceTree = "<group>"; };
+		DD7FE85016E55E7A0033C5E2 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		DD7FE85116E55E7A0033C5E2 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		DD7FE85316E55E880033C5E2 /* Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Match.h; sourceTree = "<group>"; };
+		DD7FE85416E55E890033C5E2 /* Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Match.m; sourceTree = "<group>"; };
+		DD7FE85616E55F350033C5E2 /* PopoverMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverMenuViewController.h; sourceTree = "<group>"; };
+		DD7FE85716E55F350033C5E2 /* PopoverMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +104,16 @@
 				DD7FE83F16E55B560033C5E2 /* ViewController.h */,
 				DD7FE84016E55B560033C5E2 /* ViewController.m */,
 				DD7FE82B16E55B560033C5E2 /* Supporting Files */,
+				DD7FE84716E55BDC0033C5E2 /* DetailMainViewController.h */,
+				DD7FE84816E55BDC0033C5E2 /* DetailMainViewController.m */,
+				DD7FE84A16E55BFC0033C5E2 /* DetailAfterPushViewController.h */,
+				DD7FE84B16E55BFC0033C5E2 /* DetailAfterPushViewController.m */,
+				DD7FE85016E55E7A0033C5E2 /* CustomCell.h */,
+				DD7FE85116E55E7A0033C5E2 /* CustomCell.m */,
+				DD7FE85316E55E880033C5E2 /* Match.h */,
+				DD7FE85416E55E890033C5E2 /* Match.m */,
+				DD7FE85616E55F350033C5E2 /* PopoverMenuViewController.h */,
+				DD7FE85716E55F350033C5E2 /* PopoverMenuViewController.m */,
 			);
 			path = customtablecellerror;
 			sourceTree = "<group>";
@@ -176,6 +201,11 @@
 				DD7FE83116E55B560033C5E2 /* main.m in Sources */,
 				DD7FE83516E55B560033C5E2 /* AppDelegate.m in Sources */,
 				DD7FE84116E55B560033C5E2 /* ViewController.m in Sources */,
+				DD7FE84916E55BDC0033C5E2 /* DetailMainViewController.m in Sources */,
+				DD7FE84C16E55BFC0033C5E2 /* DetailAfterPushViewController.m in Sources */,
+				DD7FE85216E55E7A0033C5E2 /* CustomCell.m in Sources */,
+				DD7FE85516E55E890033C5E2 /* Match.m in Sources */,
+				DD7FE85816E55F350033C5E2 /* PopoverMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
